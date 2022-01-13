@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    
+    overflow-x: hidden;
+}
+.header p{
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#logo{
+   float: left;
+   
+}
+#about{
+    margin-top: 20px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+#meddia{
+    margin-top: 20px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+#Contact{
+    margin-top: 20px;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+#imagen{
+    width: 1500px;
+    margin-right: 20px;
+}
+h2{
+    margin: 20px;
+}
+#parrafo{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    text-justify:auto;
+    text-align: center;
+
+}
+#tarjetas{
+    margin: 8px;
+    margin-right: 20px;
+    margin-top:70px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(197, 255, 255, 0.9);
+    padding-top: 24px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.recuadro  {
+    display: inline-block;
+    vertical-align: top;
+    padding:15px;
+    margin: 13px;
+    background-color: rgb(238, 255, 255);
+    width: 300px;
+    height: 220px;
+    text-align: center;
+    border-radius: 15px;
+}
+.imagenes{
+    display: inline-block;
+    height: 100%;
+    padding: 30px;
+    border-radius: 15px;
+    margin:8px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.imagenes img{
+    border-radius: 60px;
+}
+.imagenes p{
+    margin: 8px;
+}
+#creadores{
+    align-content: center;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+.photo{
+    width: 400px;
+    padding:1px;
+    height: 400px;
+}
+.historia{
+    float: right;
+    margin-right: 10px;
+}
+.moments{
+    margin-top: 20px;
+}
+#titulo{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.titulos{
+    margin-left: 24px;
+}
+.historia p{
+    margin-right: 8px;
+}
+.fechas{
+    display: inline-block;
+    height: 400px;
+    width: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    margin:8px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    background-color: red;
+}
+
+.fechas img{
+    width: 60px;
+    height: 40px;
+}
+#cuadrofecha{
+    align-content: center;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+#logo:hover {
+    background-color: rgba(248, 85, 153, 0.15);
+}
+#about:hover {   
+    background-color: rgba(248, 85, 153, 0.15);
+}
+#meddia:hover {
+    background-color: rgba(248, 85, 153, 0.15);
+}
+#Contact:hover {
+    background-color: rgba(248, 85, 153, 0.15);
+}
